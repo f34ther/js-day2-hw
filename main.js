@@ -101,3 +101,22 @@ function checking(word) {
 
 console.log(checking('happy'))
 console.log(checking('applejackssssss'))
+
+
+
+// prev. attempted code wars:
+function reverseList(list) {
+    return list.reverse()
+}
+// Test.assertSimilar(reverseList([1,2,3,4]), [4,3,2,1]);
+// Test.assertSimilar(reverseList([3,1,5,4]), [4,5,1,3]);
+
+// new code wars: sentence smash:
+function smash(words) {
+    console.log(words)
+    return words.join(' ')
+};
+
+ //assert.strictEqual(smash(["hello", "world"]), "hello world");
+//  assert.strictEqual(smash(["hello", "amazing", "world"]), "hello amazing world");
+//  assert.strictEqual(smash(["this", "is", "a", "really", "long", "sentence"]), "this is a really long sentence");
